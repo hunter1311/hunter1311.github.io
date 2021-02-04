@@ -1,10 +1,46 @@
 body{
-	background-color: #36b0cc; 
+	background-color: #ff3333; 
 }
 
 h1{
-	color: white;
+	color: #000000;
 }
+/*Bagian Navbar*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.nav {
+	margin: auto;
+	text-align: right;
+	font-family: fantasy;
+	width: 100%;
+	font-size: 20px;
+}
+.nav ul {
+	background: black;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	width: 100%;
+	padding: 0 20px;
+}
+.nav ul li {
+	float: right;
+}
+.nav ul li:hover{
+	background: black;
+}
+.nav ul li:hover a{
+	color: show;
+}
+.nav ul li a{
+	display: block;
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+}
+/*Bagian Slider*/
 @keyframes slider {     
 	0% {
 		left: 0; 
