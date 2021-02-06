@@ -95,10 +95,13 @@ h1{
 }
 
 form {
-	float: left;
+	float: center;
 }
 .search{
-	padding: 12px 13px;
+	padding: 10px 10px;
 	background:white;
 	border: 0px solid #dbdbdb;
+}
+.footer {
+	text-align: center;
 }
